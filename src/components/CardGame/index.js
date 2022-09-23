@@ -1,7 +1,7 @@
 import "./style.css";
 
 const CardGame = () => {
-  return `
+  return /*html */`
     <article class = "card-game">
     <svg width="60" height="95" viewBox="0 0 60 95" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect width="60" height="94.2857" fill="url(#pattern0)"/>
