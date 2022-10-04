@@ -1,12 +1,17 @@
-import CardGame from "../CardGame"
+import CardGame from "../CardGame";
+import "./style.css";
 
 const CardFrontBack = () => {
-    return /*html */`
+  return /*html */ `
         <article class = "card-front-back">
-          ${CardGame()}
+        <div class ="card-front">
+         ${CardGame()}
+        </div>
+        <div class= "card-back">
           ${CardGame("logo-javascript")}
+        </div>
         </article>
-    `
+    `;
 };
 
 export default CardFrontBack;
