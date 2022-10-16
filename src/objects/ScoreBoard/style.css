@@ -2,4 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     padding-block: 2.5rem;
+    align-items: center;
+}
+
+.player-score > .pointer {
+    background-color: var(--color-old-silver);
 }

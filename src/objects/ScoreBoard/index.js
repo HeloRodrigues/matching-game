@@ -7,9 +7,9 @@ const ScoreBoard = () => {
      return /*html*/ `
       <header class= "score-board">
           ${PlayerName(1)}
-          ${PlayerScore()}
+          ${PlayerScore(2)}
           ${VersusPlayer()}
-          ${PlayerScore()}
+          ${PlayerScore(1)}
           ${PlayerName(2)}
       </header>
     
